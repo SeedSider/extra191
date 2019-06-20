@@ -18,4 +18,4 @@ Notulensi Pertemuan
   * Mendaftar 15 sub-topik materi OS secara keseluruhan
   * Merencanakan berapa kali pertemuan dan kapan saja
   
-  =========================
+============================
