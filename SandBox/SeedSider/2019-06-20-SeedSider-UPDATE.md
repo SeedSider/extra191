@@ -24,6 +24,7 @@ Wed Jun 21 10:46:08 WIB 2019
   * Terkait Nilai Extra
     * Informasikan kepada orang yang tidak datang hari ini apakah masih berkomitmen menjalani program Extra
       * Terkait hal ini, Ketua 3 menyatakan ingin mengundurkan diri dari program Extra dan ingin agar mendapatkan nilai sebelumnya
+      * Ketua 2 belum memberi kabar
     * Ada 3 opsi dalam pemberian nilai, Yaitu :
       * Semua mendapatkan nilai Extra
       * Semua tidak mendapatkan nilai Extra
