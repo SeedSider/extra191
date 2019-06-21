@@ -26,8 +26,8 @@ Wed Jun 21 10:46:08 WIB 2019
       * Terkait hal ini, Ketua 3 menyatakan ingin mengundurkan diri dari program Extra
     * Ada 3 opsi dalam pemberian nilai, Yaitu :
       * Semua mendapatkan nilai Extra
-	     * Semua tidak mendapatkan nilai Extra
-	   * Ada sebagian yang mendapatkan nilai Extra, ada Sebagian yang tidak
+      * Semua tidak mendapatkan nilai Extra
+      * Ada sebagian yang mendapatkan nilai Extra, ada Sebagian yang tidak
 
   * Usulan terkait perbaikan proses perkuliahan OS di Semester-semester berikutnya
     * Lebih menambah latihan soal (mengenai teknis, belum ada rincian)
