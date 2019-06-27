@@ -1,41 +1,29 @@
-Repositori untuk tugas Extra OS
+# Tutorial Badak
 
----
----
-## Welcome to GitHub Pages
+Welcome to the site! How are you? Are you ready to have fun with OS? Not ready yet? Then, you're so lucky because this site will make you ready for having fun with OS.
 
-You can use the [editor on GitHub](https://github.com/SeedSider/extra191/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Badak Introduction
+COMING SOON
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### How to install putty on Windows
+COMING SOON
 
-### Markdown
+### How to access Badak
+COMING SOON
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Basic Command on Badak
+COMING SOON
 
-```markdown
-Syntax highlighted code block
+### How to Duplicate extra Folder from Badak to Your Local
+COMING SOON
 
-# Header 1
-## Header 2
-### Header 3
+### How to Compile and Run demo File On Badak
+COMING SOON
 
-- Bulleted
-- List
+### How to read a File on Badak
+COMING SOON
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SeedSider/extra191/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### OS Weekly Notes
+* Why you need to make a good notes and try demo every week
+* Tips to make a good notes
+COMING SOON
