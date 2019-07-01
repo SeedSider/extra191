@@ -12,3 +12,5 @@ Log 28 Juni 2019
 
 ### Tugas pribadi
 * Membuat folder output sesuai yang telah diminta di memo14
+* Update konten di readme.md sesuai dengan pembagian tugas
+* Menambahkan Notes Introduction pada file readme.md
