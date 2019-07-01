@@ -1,29 +1,20 @@
-# Tutorial Badak
+# Kuliah OS 101
+Halaman ini akan membahas apa saja yang perlu kalian ketahui mengenai perkuliahan OS
+### Notes Introduction
+Mungkin dari teman-teman masih banyak yang bingung, nih. Maksudnya notes OS apa sih? Jadi, notes OS adalah salah satu tugas mingguan kalian sebagai peserta kuliah OS. Di awal perkuliahan nanti, kalian akan diberitahu untuk *WAJIB* membuat notes OS setiap minggu dan akan diperiksa di setiap awal minggu yang dihitung berdasarkan 2 pertemuan/minggu. Jadi, jika pada hari perkuliahan ada hari libur, maka hari tersebut tidak dihitung dan akan dihitung di hari pertemuan berikutnya.
+Isi notes OS apa aja sih? Nah, sebenernya kalian bebas mengisi notes kalian, entah dengan jawaban soal, istilah penting, rangkuman buku, ~~curhat juga boleh~~. Tapi ingat yaa, notes ini akan kalian bawa pas ujian. Jadi, isinya jangan asal-asalan yaa...
 
-Welcome to the site! How are you? Are you ready to have fun with OS? Not ready yet? Then, you're so lucky because this site will make you ready for having fun with OS.
-
-### Badak Introduction
+### Alasan Kenapa Harus Membuat Notes OS yang Bagus
 COMING SOON
 
-### How to install putty on Windows
+### Tips Membuat Notes yang Baik
 COMING SOON
 
-### How to access Badak
+### Demo Introduction
 COMING SOON
 
-### Basic Command on Badak
+### Kenapa Harus Rajin Mengerjakan Demo di Badak
 COMING SOON
 
-### How to Duplicate extra Folder from Badak to Your Local
-COMING SOON
-
-### How to Compile and Run demo File On Badak
-COMING SOON
-
-### How to read a File on Badak
-COMING SOON
-
-### OS Weekly Notes
-* Why you need to make a good notes and try demo every week
-* Tips to make a good notes
+### Penjelasan Mengenai Nilai Extra dan C-2C
 COMING SOON
