@@ -10,6 +10,7 @@ Isi notes OS apa aja sih? Nah, sebenernya kalian bebas mengisi notes kalian, ent
 ### Alasan Kenapa Harus Membuat Notes OS yang Bagus
 Mungkin kalian bertanya, kenapa harus bikin notes yang bagus setiap minggunya, terutama sebelum UTS? Alasannya adalah :
 1. **Notes adalah salah satu tugas yang wajib kalian kerjakan tiap minggunya**\
+
 Perlu kalian ketahui bahwa notes itu dinilai tiap minggu. Kalau kalian tidak mengerjakan notes, nilai kalian minggu itu akan berkurang.
 
 2. **Notes OS sangat membantu kalian untuk mendapatkan *pre-knowledge* sebelum perkuliahan dimulai**\
