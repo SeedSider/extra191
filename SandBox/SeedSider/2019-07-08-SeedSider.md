@@ -11,5 +11,5 @@ Log 08 Juli 2019
   * [Perintah-Perintah Shell Basic](tutorial/shell-basic.md)
   * [Menjalankan dan Membaca Demo Program di Badak](tutorial/badak-demo.md)
 * Mengoreksi deskripsi nilai C-2C sesuai dengan yang telah dijelaskan di [memo](https://github.com/UI-FASILKOM-OS/extra191/blob/master/SandBox/rms46/2019-07-07-rms46-memo19.md)
-* Menambahkan file status masing-masing anggota di folder [Status](SandBox/SeedSider/Status)
+* Menambahkan file status masing-masing anggota di folder [Status](https://github.com/SeedSider/extra191/tree/master/SandBox/SeedSider/Status)
 * Menambahkan folder SeedSider di [sandbox extra191](https://github.com/UI-FASILKOM-OS/extra191/tree/master/SandBox/SeedSider)
