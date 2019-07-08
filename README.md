@@ -6,3 +6,7 @@ Selamat belajar!
 ## Daftar Tutorial
 * [Notes Guide](tutorial/notes-guide.md)
 * [Penjelasan Mengenai Nilai Extra dan C-2C](tutorial/nilai-extra.md)
+* [Cara Menginstall PuTTY di Windows](tutorial/putty-install.md)
+* [Cara Mengakses Badak](tutorial/badak-access.md)
+* [Perintah-Perintah Shell Basic](tutorial/shell-basic.md)
+* [Menjalankan dan Membaca Demo Program di Badak](tutorial/badak-demo.md)
