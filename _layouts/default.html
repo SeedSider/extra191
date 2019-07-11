@@ -13,131 +13,27 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <style>
-
-    #loader{
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      background: #fff
-      url('https://66.media.tumblr.com/d8671cf8956dda36e961876e53932c93/tumblr_inline_milz8aaoJy1qz4rgp.gif')
-      no-repeat center;
-      z-index: 99999;
-    }
-
-    .navbar {
-      overflow: hidden;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .navbar a {
-      float: left;
-      font-size: 16px;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-
-    .dropdown {
-      float: left;
-      overflow: hidden;
-    }
-
-    .dropdown .button {
-      cursor: pointer;
-      font-size: 16px;
-      border: none;
-      outline: none;
-      color: white;
-      padding: 14px 16px;
-      background-color: inherit;
-      font-family: inherit;
-      margin: 0;
-    }
-
-    .navbar a:hover, .dropdown:hover .button, .button:focus {
-      background-color: red;
-    }
-
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #FFD700;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
-
-    .dropdown-content a {
-      float: none;
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-    }
-
-    .dropdown-content a:hover {
-      background-color: #ddd;
-    }
-
-    .show {
-      display: block;
-    }
-
-
-    </style>
   </head>
-  <body onload="myFunction3()">
-      <div id="loader"></div>
+  <body>
+
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
       </header>
+
       <div id="banner">
+        <span id="logo"></span>
 
-        <span class="etc"></span>
-          <div class="navbar">
-            <a href="/" class="button"><strong>Home</strong></a>
-            <div class="dropdown">
-              <button class="button" onclick="myFunction()">Tutorials
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content" id="myDropdown">
-				<a href="/step/2019-01-09-GitHubPages.html">Create GitHub Pages</a>
-                <a href="/step/2019-01-09-RubyandJekyllInstallation.html">Ruby and Jekyll Installation</a>
-                <a href="/step/HowtoIntegrateYourGitHubRepositorywithJekyll.html">Integrating GitHub Pages and Local Jekyll </a>
-                <a href="/step/ChangeJekyllTheme.html">Change The Page's Theme</a>
-                <a href="/step/Install_Git_to_Windows.html">How to install git</a>
-              </div>
-            </div>
-            <div class="dropdown">
-              <button class="button" onclick="myFunction2()">Author
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content" id="myDropdown2">
-                <a href="/farz/">Fadhriz</a>
-                <a href="/nardiena/">Nardiena</a>
-                <a href="/wahyu/">Wahyu</a>
-              </div>
-            </div>
-            <a href="/about" class="button"><strong>About</strong></a>
-            <a href="/blog" class="button"><strong>Blog</strong></a>
-            <span id="logo"></span>
-            <a href="{{ site.github.repository_url }}" class="button"><strong>View on GitHub</strong></a>
-            {% if site.show_downloads %}
-            <div class="downloads">
-              <span>Downloads:</span>
-              <ul>
-                <li><a href="{{ site.github.zip_url }}" class="button">ZIP</a></li>
-                <li><a href="{{ site.github.tar_url }}" class="button">TAR</a></li>
-              </ul>
-            </div>
-            {% endif %}
+        <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
+        {% if site.show_downloads %}
+          <div class="downloads">
+            <span>Downloads:</span>
+            <ul>
+              <li><a href="{{ site.github.zip_url }}" class="button">ZIP</a></li>
+              <li><a href="{{ site.github.tar_url }}" class="button">TAR</a></li>
+            </ul>
           </div>
-
-
+        {% endif %}
       </div><!-- end banner -->
 
     <div class="wrapper">
@@ -166,43 +62,5 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-
-{%- include comment.html -%}
-
-    <script>
-    /* When the user clicks on the button,
-    toggle between hiding and showing the dropdown content */
-    function myFunction() {
-      document.getElementById("myDropdown").classList.toggle("show");
-    }
-
-    function myFunction2() {
-      document.getElementById("myDropdown2").classList.toggle("show");
-    }
-
-    // Close the dropdown if the user clicks outside of it
-    window.onclick = function(e) {
-      if (!e.target.matches('.button')) {
-      var myDropdown = document.getElementById("myDropdown");
-        if (myDropdown.classList.contains('show')) {
-          myDropdown.classList.remove('show');
-        }
-      }
-    }
-    window.onclick = function(e) {
-      if (!e.target.matches('.button')) {
-      var myDropdown2 = document.getElementById("myDropdown2");
-        if (myDropdown2.classList.contains('show')) {
-          myDropdown2.classList.remove('show');
-        }
-      }
-    }
-
-    var preloader = document.getElementById('loader');
-
-    function myFunction3(){
-      preloader.style.display = 'none';
-    }
-    </script>
   </body>
 </html>
