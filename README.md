@@ -1,4 +1,4 @@
-V002-20190711 SeedSider
+V003-20190712 SeedSider
 
 # Kuliah OS 101
 Selamat datang para peserta mata kuliah Operating System!

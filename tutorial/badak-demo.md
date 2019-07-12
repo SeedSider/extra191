@@ -26,5 +26,19 @@ Di dalam Badak, terdapat banyak sekali demo program yang bisa kalian jalankan un
 	
 	
 ## Cara Membaca File Demo di Badak
+Ada beberapa cara untuk membaca file demo yang ada di Badak. Berikut ini langkah-langkahnya:
+1. Cari file yang ingin kalian baca dengan perintah **ls**
+	
+	![Screenshot_001](https://user-images.githubusercontent.com/51855753/61125766-e1cf6c00-a4d4-11e9-82ed-7d6f8b9c1c6a.png)
 
-TODO
+2. Misalnya kita ingin membaca isi file *01-fork.c*, salah satu caranya adalah dengan perintah **cat**. Dengan perintah ini, semua isinya akan di-*load* langsung.
+	
+	![Screenshot_002](https://user-images.githubusercontent.com/51855753/61126228-20b1f180-a4d6-11e9-97e6-9f507672febf.png)
+
+3. Jika kalian hanya ingin menge-*load* sepanjang ukuran terminal kalian, kalian bisa menggunakan perintah **more**. Jika kalian mau membaca baris selanjutnya, tinggal menekan Enter di keyboard kalian
+	
+	![Screenshot_003](https://user-images.githubusercontent.com/51855753/61126325-5656da80-a4d6-11e9-9508-ceba50bc9e1e.png)
+
+4. Perintah lainnya yang bisa kalian gunakan adalah perintah **less**. Perintah ini hampir sama dengan **more**, namun dengan perintah **less** kalian bisa melakukan **scrolling** ke atas dan ke bawah dengan bebas tidak seperti perintah **more** yang hanya bisa ke bawah. Kemudian, jika kalian di akhir file, kalian akan mendapatkan kata [END] yang menandakan isi file tersebut sudah berakhir. Untuk kembali ke terminal semula, tekan **Q** pada keyboard kalian. 
+	
+	![Screenshot_005](https://user-images.githubusercontent.com/51855753/61126579-075d7500-a4d7-11e9-9c4d-9902f5b4b95b.png)

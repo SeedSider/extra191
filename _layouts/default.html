@@ -15,16 +15,20 @@
 
   </head>
   <body>
-
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
       </header>
 
       <div id="banner">
+        <div class="navbar">
+            <a href="/" class="button"><strong>Home</strong></a>
+            <a href="/" class="button"><strong>Tutorial</strong></a>
+            <a href="/" class="button"><strong>Blog</strong></a>
+            <a href="/" class="button"><strong>About</strong></a>
+            <a href="{{ site.github.repository_url }}" class="button"><strong>View On GitHub</strong></a>
         <span id="logo"></span>
-
-        <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
+        
         {% if site.show_downloads %}
           <div class="downloads">
             <span>Downloads:</span>
@@ -34,6 +38,7 @@
             </ul>
           </div>
         {% endif %}
+      </div>
       </div><!-- end banner -->
 
     <div class="wrapper">
