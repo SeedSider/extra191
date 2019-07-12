@@ -41,4 +41,6 @@ Ada beberapa cara untuk membaca file demo yang ada di Badak. Berikut ini langkah
 
 4. Perintah lainnya yang bisa kalian gunakan adalah perintah **less**. Perintah ini hampir sama dengan **more**, namun dengan perintah **less** kalian bisa melakukan **scrolling** ke atas dan ke bawah dengan bebas tidak seperti perintah **more** yang hanya bisa ke bawah. Kemudian, jika kalian di akhir file, kalian akan mendapatkan kata [END] yang menandakan isi file tersebut sudah berakhir. Untuk kembali ke terminal semula, tekan **Q** pada keyboard kalian. 
 	
+	![Screenshot_004](https://user-images.githubusercontent.com/51855753/61141994-f0c81580-a4f8-11e9-8d09-1c33c6434060.png)
+	
 	![Screenshot_005](https://user-images.githubusercontent.com/51855753/61126579-075d7500-a4d7-11e9-9c4d-9902f5b4b95b.png)
