@@ -13,6 +13,68 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+    <style>
+
+     .navbar {
+      overflow: hidden;
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    .dropdown .button {
+      cursor: pointer;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+    .navbar a:hover, .dropdown:hover .button, .button:focus {
+      background-color: red;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #FFD700;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    .show {
+      display: block;
+    }
+    </style>
+
   </head>
   <body>
       <header>
@@ -22,10 +84,20 @@
 
       <div id="banner">
         <div class="navbar">
-            <a href="/" class="button"><strong>Home</strong></a>
-            <a href="/" class="button"><strong>Tutorial</strong></a>
-            <a href="/" class="button"><strong>Blog</strong></a>
-            <a href="/" class="button"><strong>About</strong></a>
+            <a href="/extra191" class="button"><strong>Home</strong></a>
+            <div class="dropdown">
+            	<button class="button" onclick="myFunction()"><strong>Tutorials</strong></button>
+            	<div class="dropdown-content" id="tutorial-dropdown">
+            		<a href="/tutorial/notes-guide.html">Notes Guide</a>
+            		<a href="/tutorial/nilai-extra.html">Nilai Extra dan C-2C</a>
+            		<a href="/tutorial/putty-install.html">Panduan Install PuTTY</a>
+            		<a href="/tutorial/badak-access.html">Tutorial Mengakses Badak</a>
+            		<a href="/tutorial/shell-basic.html">Perintah Dasar Shell</a>
+            		<a href="/tutorial/badak-demo.html">Demo Badak</a>
+            	</div>
+            </div>
+            <a href="/extra191" class="button"><strong>Blog</strong></a>
+            <a href="/extra191" class="button"><strong>About</strong></a>
             <a href="{{ site.github.repository_url }}" class="button"><strong>View On GitHub</strong></a>
         <span id="logo"></span>
         
@@ -67,5 +139,22 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+
+     <script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("tutorial-dropdown").classList.toggle("show");
+    }
+ // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.button')) {
+      var myDropdown = document.getElementById("tutorial-dropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+	</script>
   </body>
 </html>
