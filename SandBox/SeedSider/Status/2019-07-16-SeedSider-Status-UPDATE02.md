@@ -4,4 +4,4 @@ Status pengumpulan log 16 Juli 2019
 * Ketua 2 : 
 * Ketua 3 : 
 * Ketua 4 : Sudah
-* Ketua 5 : 
+* Ketua 5 : Sudah
