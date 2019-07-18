@@ -1,6 +1,6 @@
 Rincian Produk Akhir
 ---
-* Panduan Notes dan Alasan kenapa harus membuat notes
+* [Panduan Notes dan Alasan kenapa harus membuat notes](https://seedsider.github.io/extra191/tutorial/notes-guide.html)
 * Penjelasan Mengenai Nilai Extra dan C-2C
 * Cara install puTTY di windows
 * Cara mengakses badak (tunelling via kawung dan akses langsung)
